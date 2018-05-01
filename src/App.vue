@@ -22,6 +22,13 @@
 import PhotoFlow from './components/PhotoFlow.vue'
 import SlideMenu from './components/SlideMenu.vue'
 import Slideout from 'vue-slideout'
+import Vue from 'vue'
+import VueHead from 'vue-head'
+import icon from './assets/logo.png'
+
+Vue.use(VueHead)
+
+const title = 'Photography works of weaming'
 
 export default {
   name: 'app',
@@ -30,10 +37,35 @@ export default {
     Slideout,
     SlideMenu,
   },
+  data: function() {
+    return {
+      title: title
+    }
+  },
   methods: {
     open() {
       console.log('opened')
     }
+  },
+  head: {
+    title: function () {
+      return {
+        inner: this.title
+      }
+    },
+    // Meta tags
+    meta: [
+      { itemprop: 'name', content: title },
+      { itemprop: 'description', content: 'This is my photogoraphy wokrs made by weaming' },
+    ],
+    // link tags
+    link: [
+      { rel: 'icon', href: icon, sizes: '16x16', type: 'image/png' },
+    ],
+    script: [
+    ],
+    style: [
+    ]
   }
 }
 </script>
