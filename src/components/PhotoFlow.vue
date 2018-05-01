@@ -24,7 +24,7 @@ export default {
   data() {
     return {
       images: images,
-      url: 'https://gist.githubusercontent.com/weaming/f15ac6ee19c2a359f910a37f02677014/raw/uploaded.json',
+      url: 'http://jredison.bitsflow.org/json/photography',
     }
   },
   beforeMount: function() {
