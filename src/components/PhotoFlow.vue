@@ -4,7 +4,7 @@
       <waterfall-slot v-for="(item, index) in images"
                       :width="item.image.width / 10" :height="item.image.height / 10"
                       :order="index" :key="item.data.path">
-        <img class="item" :src="item.data.thumb_url" :origin-src="item.data.url"/>
+        <img class="item" :src="item.data.url" :origin-src="item.data.url"/>
       </waterfall-slot>
     </waterfall>
   </div>

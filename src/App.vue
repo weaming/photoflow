@@ -56,7 +56,7 @@ export default {
     // Meta tags
     meta: [
       { itemprop: 'name', content: title },
-      { itemprop: 'description', content: 'This is my photogoraphy wokrs made by weaming' },
+      { itemprop: 'description', content: 'This is photogoraphy wokrs made by weaming' },
     ],
     // link tags
     link: [
