@@ -4,7 +4,7 @@
       <waterfall-slot v-for="(item, index) in images"
                       :width="item.image.width / 10" :height="item.image.height / 10"
                       :order="index" :key="item.data.path">
-        <img :src="item.data.thumb_url" :origin-src="item.data.url" :style="getImgStyle(item)"/>
+        <img class="item" :src="item.data.thumb_url" :origin-src="item.data.url"/>
       </waterfall-slot>
     </waterfall>
   </div>
@@ -72,4 +72,8 @@ a {
   color: #42b983;
 }
 
+img.item {
+  height: 100%;
+  width: 100%;
+}
 </style>
