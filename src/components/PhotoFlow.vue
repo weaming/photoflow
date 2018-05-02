@@ -1,12 +1,19 @@
 <template>
   <div id="container" v-viewer="{movable: false}">
-    <div v-for="p in this.images" :key="p.data.storename" class="one">
-        <img :src="p.data.url" class="item"/>
-    </div>
+    <waterfall :line-gap="200" :watch="images">
+      <waterfall-slot v-for="(item, index) in images"
+                      :width="item.image.width / 10" :height="item.image.height / 10"
+                      :order="index" :key="item.data.path">
+        <img :src="item.data.thumb_url" :origin-src="item.data.url" :style="getImgStyle(item)"/>
+      </waterfall-slot>
+    </waterfall>
   </div>
 </template>
 
 <script>
+import Waterfall from 'vue-waterfall/lib/waterfall'
+import WaterfallSlot from 'vue-waterfall/lib/waterfall-slot'
+
 import images from "../assets/uploaded.json"
 import 'viewerjs/dist/viewer.css'
 import Viewer from 'v-viewer'
@@ -21,13 +28,17 @@ export default {
   name: 'PhotoFlow',
   props: {
   },
+  components: {
+    Waterfall,
+    WaterfallSlot
+  },
   data() {
     return {
       images: images,
       url: 'http://jredison.bitsflow.org/json/photography',
     }
   },
-  beforeMount: function() {
+  created: function() {
     const self = this
     fetch(this.url).
       then(function(res) {
@@ -37,15 +48,16 @@ export default {
         self.images = res
         return self.images
       }).
-      then(function(res) {
-        console.log(res)
-        return res
-      }).
       catch(function(e) {
         console.log(e)
       })
   },
   methods: {
+    getImgStyle(item) {
+      var rv = `width: ${item.image.width / 8}px;`
+      console.log(rv)
+      return rv
+    }
   }
 }
 </script>
@@ -60,26 +72,4 @@ a {
   color: #42b983;
 }
 
-img.item, .one{
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-}
-
-/* image box */
-.one {
-    display:inline-block;
-    width: 10vw;
-    height: 10vw;
-    overflow: hidden;
-}
-
-img.item {
-  min-width: 10vw;
-  min-height: 10vw;
-  max-width: 15vw;
-  max-height: 15vw;
-  position: relative;
-  left: -20%;
-}
 </style>

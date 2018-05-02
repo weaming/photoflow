@@ -1,162 +1,30 @@
 {
     "/Users/garden/Downloads/Canon/Origin/201804PS/_MG_1954PS.jpg": {
-        "code": "success",
-        "data": {
+        "image": {
+            "filename": "./_MG_1954PS.jpg",
+            "content-type": "image/jpeg",
+            "format": "jpeg",
+            "size": 2026341,
             "width": 1980,
             "height": 1415,
-            "filename": "_MG_1954PS.jpg",
-            "storename": "5ae82d36edc12.jpg",
-            "size": 2026341,
-            "path": "/2018/05/01/5ae82d36edc12.jpg",
-            "hash": "C1s3k29AKYNytBl",
-            "timestamp": 1525165366,
-            "ip": "183.14.31.62",
-            "url": "https://i.loli.net/2018/05/01/5ae82d36edc12.jpg",
-            "delete": "https://sm.ms/delete/C1s3k29AKYNytBl"
-        }
-    },
-    "/Users/garden/Downloads/Canon/Origin/201804PS/_MG_1991PS.jpg": {
-        "code": "success",
+            "file": "/photos/origin/2018/05/03/1525277328.png",
+            "sha256": "903406d0139ed54b26ebf2304bc32e4339cd70e4955ba9fccb8308953c9f2620"
+        },
+        "thumb": {
+            "filename": "1525277328.png",
+            "content-type": "image/jpeg",
+            "format": "jpeg",
+            "size": 103531,
+            "width": 1280,
+            "height": 914,
+            "file": "/photos/thumb/2018/05/03/1525277328.png",
+            "sha256": "20b0c6acecc500a369256f0c4a2f77430909e0282a39314c34f717141c9f36c0"
+        },
         "data": {
-            "width": 1980,
-            "height": 1320,
-            "filename": "_MG_1991PS.jpg",
-            "storename": "5ae82d3972631.jpg",
-            "size": 1342146,
-            "path": "/2018/05/01/5ae82d3972631.jpg",
-            "hash": "MOn2PZYmcwa9rsu",
-            "timestamp": 1525165369,
-            "ip": "183.14.31.62",
-            "url": "https://i.loli.net/2018/05/01/5ae82d3972631.jpg",
-            "delete": "https://sm.ms/delete/MOn2PZYmcwa9rsu"
-        }
-    },
-    "/Users/garden/Downloads/Canon/Origin/201804PS/_MG_2024PS.jpg": {
-        "code": "success",
-        "data": {
-            "width": 1980,
-            "height": 1320,
-            "filename": "_MG_2024PS.jpg",
-            "storename": "5ae82d3d4e303.jpg",
-            "size": 2108403,
-            "path": "/2018/05/01/5ae82d3d4e303.jpg",
-            "hash": "BmzESpVTWuUZO6P",
-            "timestamp": 1525165373,
-            "ip": "183.14.31.62",
-            "url": "https://i.loli.net/2018/05/01/5ae82d3d4e303.jpg",
-            "delete": "https://sm.ms/delete/BmzESpVTWuUZO6P"
-        }
-    },
-    "/Users/garden/Downloads/Canon/Origin/201804PS/_MG_2065PS.jpg": {
-        "code": "success",
-        "data": {
-            "width": 1980,
-            "height": 1320,
-            "filename": "_MG_2065PS.jpg",
-            "storename": "5ae82d4103612.jpg",
-            "size": 2095615,
-            "path": "/2018/05/01/5ae82d4103612.jpg",
-            "hash": "I2BtWh8uiCX56Sa",
-            "timestamp": 1525165377,
-            "ip": "183.14.31.62",
-            "url": "https://i.loli.net/2018/05/01/5ae82d4103612.jpg",
-            "delete": "https://sm.ms/delete/I2BtWh8uiCX56Sa"
-        }
-    },
-    "/Users/garden/Downloads/Canon/Origin/201804PS/_MG_2102PS.jpg": {
-        "code": "success",
-        "data": {
-            "width": 1980,
-            "height": 1320,
-            "filename": "_MG_2102PS.jpg",
-            "storename": "5ae82d44bf5c8.jpg",
-            "size": 2086472,
-            "path": "/2018/05/01/5ae82d44bf5c8.jpg",
-            "hash": "i3VhaGHr9wx6Zzg",
-            "timestamp": 1525165380,
-            "ip": "183.14.31.62",
-            "url": "https://i.loli.net/2018/05/01/5ae82d44bf5c8.jpg",
-            "delete": "https://sm.ms/delete/i3VhaGHr9wx6Zzg"
-        }
-    },
-    "/Users/garden/Downloads/Canon/Origin/201804PS/_MG_2134PS.jpg": {
-        "code": "success",
-        "data": {
-            "width": 1980,
-            "height": 1320,
-            "filename": "_MG_2134PS.jpg",
-            "storename": "5ae82d498da73.jpg",
-            "size": 2607713,
-            "path": "/2018/05/01/5ae82d498da73.jpg",
-            "hash": "DvRL36izGkpywgV",
-            "timestamp": 1525165385,
-            "ip": "183.14.31.62",
-            "url": "https://i.loli.net/2018/05/01/5ae82d498da73.jpg",
-            "delete": "https://sm.ms/delete/DvRL36izGkpywgV"
-        }
-    },
-    "/Users/garden/Downloads/Canon/Origin/201804PS/_MG_2164PS.jpg": {
-        "code": "success",
-        "data": {
-            "width": 1980,
-            "height": 1320,
-            "filename": "_MG_2164PS.jpg",
-            "storename": "5ae82d4f1d0a3.jpg",
-            "size": 2853167,
-            "path": "/2018/05/01/5ae82d4f1d0a3.jpg",
-            "hash": "krsbBhfFJvy7tKE",
-            "timestamp": 1525165391,
-            "ip": "183.14.31.62",
-            "url": "https://i.loli.net/2018/05/01/5ae82d4f1d0a3.jpg",
-            "delete": "https://sm.ms/delete/krsbBhfFJvy7tKE"
-        }
-    },
-    "/Users/garden/Downloads/Canon/Origin/201804PS/_MG_2167PS.jpg": {
-        "code": "success",
-        "data": {
-            "width": 1980,
-            "height": 1320,
-            "filename": "_MG_2167PS.jpg",
-            "storename": "5ae82d532b634.jpg",
-            "size": 2363186,
-            "path": "/2018/05/01/5ae82d532b634.jpg",
-            "hash": "kNr1RsQIJ2ab5OZ",
-            "timestamp": 1525165395,
-            "ip": "183.14.31.62",
-            "url": "https://i.loli.net/2018/05/01/5ae82d532b634.jpg",
-            "delete": "https://sm.ms/delete/kNr1RsQIJ2ab5OZ"
-        }
-    },
-    "/Users/garden/Downloads/Canon/Origin/201804PS/IMG_1896PS.jpg": {
-        "code": "success",
-        "data": {
-            "width": 1980,
-            "height": 1320,
-            "filename": "IMG_1896PS.jpg",
-            "storename": "5ae82d569e0e7.jpg",
-            "size": 1780120,
-            "path": "/2018/05/01/5ae82d569e0e7.jpg",
-            "hash": "KPc9ktfpJgnObLs",
-            "timestamp": 1525165398,
-            "ip": "183.14.31.62",
-            "url": "https://i.loli.net/2018/05/01/5ae82d569e0e7.jpg",
-            "delete": "https://sm.ms/delete/KPc9ktfpJgnObLs"
-        }
-    },
-    "/Users/garden/Downloads/Images/django-mostest-import.png": {
-        "code": "success",
-        "data": {
-            "width": 1954,
-            "height": 1732,
-            "filename": "django-mostest-import.png",
-            "storename": "5ae85a341959e.png",
-            "size": 486493,
-            "path": "/2018/05/01/5ae85a341959e.png",
-            "hash": "V9b5u4ELoYvHF7D",
-            "timestamp": 1525176884,
-            "ip": "183.14.31.62",
-            "url": "https://i.loli.net/2018/05/01/5ae85a341959e.png",
-            "delete": "https://sm.ms/delete/V9b5u4ELoYvHF7D"
+            "path": "origin/2018/05/03/1525277328.png",
+            "thumb_path": "thumb/2018/05/03/1525277328.png",
+            "url": "http://photobox.bitsflow.org/origin/2018/05/03/1525277328.png",
+            "thumb_url": "http://photobox.bitsflow.org/thumb/2018/05/03/1525277328.png"
         }
     }
 }
