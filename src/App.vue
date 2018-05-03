@@ -5,14 +5,14 @@
         <SlideMenu/>
       </nav>
       <main id="panel">
-        <header>
-          <div>
-            <button class="toggle-button">☰</button>
-          </div>
-        </header>
-            <div>
-              <PhotoFlow/>
-            </div>
+        <!-- <header> -->
+        <!--   <div> -->
+        <!--     <button class="toggle-button">☰</button> -->
+        <!--   </div> -->
+        <!-- </header> -->
+        <div>
+          <PhotoFlow/>
+        </div>
       </main>
     </Slideout>
   </div>
