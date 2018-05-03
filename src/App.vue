@@ -119,6 +119,7 @@ body {
 
 .toggle-button {
   margin: 0px 0;
+  z-index: 99;
 }
 
 .slideout-panel {
