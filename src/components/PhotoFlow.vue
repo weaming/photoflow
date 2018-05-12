@@ -4,7 +4,7 @@
       <div
         v-for="(item, index) in images"
         :width="calcWidth(item)" :height="calcHeight(item)"
-        :order="index" :key="item.data.path" class="slot">
+        :order="index" :key="item.data.hash" class="slot">
 
         <img class="item" :src="item.data.url" :origin-src="item.data.url"/>
 
@@ -64,14 +64,14 @@ export default {
     calcWidth(item) {
       /* 1440 2560 公约数 160 */
       return screen.width / 10
-      return 80
-      return item.image.width / 10
+      //return 80
+      //return item.image.width / 10
     },
     calcHeight(item) {
       /* 1440 2560 公约数 160 */
       return screen.width / 10
-      return 80
-      return item.image.height / 10
+      //return 80
+      //return item.image.height / 10
     },
   }
 }
